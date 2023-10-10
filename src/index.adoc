@@ -1,4 +1,4 @@
-:toc:
+:toc: left
 :sectnums:
 :toclevels: 1
 :toc-title: 目次
