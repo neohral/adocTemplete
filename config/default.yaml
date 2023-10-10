@@ -1,0 +1,4 @@
+#adocから外部参照するファイルの配置先(出力時にコピー)
+COPY_PATTRTN : "resources"
+#ファイル出力先
+OUTPUT_PATH : "output"

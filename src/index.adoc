@@ -1,0 +1,41 @@
+:toc:
+:sectnums:
+:toclevels: 1
+:toc-title: 目次
+
+= adocTemplete
+
+== タイトル
+
+== 初期構築
+
+=== インストール手順
+
+* `npm install` でライブラリをインストール
+* `node build.js` を実行すると出力先に出力されます。
+** 出力先はconfigの `OUTPUT_PATH` に出力されます(デフォルトはoutput)
+
+=== configの設定
+
+* `config/*.yaml` を修正することで設定を修正出来ます。
+* `NODE_ENV` の環境変数を設定することで設定ファイルの切り替えもできます。(指定しない場合はdefault.yamlが読み込まれる)
+* `NODE_ENV=development` なら `config/development.json` が読み込まれる
+
+``` sh
+export NODE_ENV=development
+node build.js
+```
+
+直接指定するならこっち
+
+``` sh
+NODE_ENV=development node app.js
+```
+
+=== 作成方法
+
+* src配下に.adocファイルを作成する
+* 画像などadocから参照するファイルはsrc/resources配下に配置する。
+** configのCOPY_PATTRTNを指定することで、変更可能
+
+* <<templete#,テンプレート>>も参考になれば

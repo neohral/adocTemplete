@@ -1,0 +1,27 @@
+:toc:
+:sectnums:
+:toclevels: 2
+:toc-title: 目次
+
+= テンプレート
+
+== よく使いそう
+
+=== テーブル
+
+.テーブルタイトル
+[options="header,footer,autowidth"]
+|===
+|ヘッダーA |ヘッダーB
+|カラムA   | カラムB
+|===
+
+=== 画像
+
+image::resources/templete/company_glass_ceiling_break.png[]
+
+=== リンク
+
+https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation[Asciidoctor 文法クイックリファレンス]
+
+<<index.adoc#>> に戻る。
