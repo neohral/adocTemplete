@@ -1,5 +1,4 @@
 :toc:
-:sectnums:
 :toclevels: 2
 :toc-title: 目次
 
