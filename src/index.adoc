@@ -21,16 +21,18 @@
 * `NODE_ENV` の環境変数を設定することで設定ファイルの切り替えもできます。(指定しない場合はdefault.yamlが読み込まれる)
 * `NODE_ENV=development` なら `config/development.json` が読み込まれる
 
-``` sh
+[source,shell]
+----
 export NODE_ENV=development
 node build.js
-```
+----
 
 直接指定するならこっち
 
-``` sh
+[source,shell]
+----
 NODE_ENV=development node app.js
-```
+----
 
 === 作成方法
 

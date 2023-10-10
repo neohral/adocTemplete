@@ -8,12 +8,33 @@
 
 === テーブル
 
+
+.テーブルタイトル
+[options="header,autowidth"]
+|===
+|ヘッダーA |ヘッダーB
+|カラム1A   | カラム1B
+|カラム2A   | カラム2B
+|===
+
 .テーブルタイトル
 [options="header,footer,autowidth"]
 |===
 |ヘッダーA |ヘッダーB
-|カラムA   | カラムB
+|カラム1A   | カラム1B
+|カラム2A   | カラム2B
+|フッターA   | フッターB
 |===
+
+=== 注釈など
+
+TIP: 補足
+
+IMPORTANT: 重要
+
+WARNING: 警告
+
+CAUTION: 注意
 
 === 画像
 
